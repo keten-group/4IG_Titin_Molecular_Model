@@ -12,4 +12,4 @@ module load intel/2011.3
 module load mpi/openmpi-1.6.3-intel2011.3
 ulimit -s unlimited
 
-mpirun -np 144 /home/awc282/bin/lmp_openmpi_7Jan17_Yao -in EPDM_restart.in > out.txt
+mpirun -np 144 /home/awc282/bin/lmp_openmpi_7Jan17_Yao -in Equil_Tensile_Test_Single_Molecule.in > Equil_Tensile_Test_Single_Molecule.log
