@@ -21,7 +21,7 @@ pair_modify     mix arithmetic
 #kspace_modify   order 4 
 
 # Input Structure
-read_data     equi_300_1.data
+read_data     ig_fibril.data
 
 # Simulation
 neighbor    2.0 bin
