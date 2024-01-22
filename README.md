@@ -43,4 +43,10 @@ The directory **Fibril_Equilibration_and_Tensile_Test** contains a sample simula
 
 - **tcl_get_trj.tcl** - TCL format script to be running using the 'source' command in VMD to visualize the trajectory output from running the input file **Equil_Tensile_Test_Single_Molecule.in**.
 
-- 
+## File Descriptions in Fibril_Equilibration_and_Tensile_Test
+
+- **ares_runlammps.sh** - Bash submission file containing the command to run this LAMMPS simulation.
+
+- **ig_fibril.data** - LAMMPS data file containing the structure of four copies of **ig_single_molecule.data** positioned nexted to each other in a 2 by 2 grid to form a titin fibril made up of 4 molecules.
+
+- **Equil_Tensile_Test.in** - LAMMPS input file to run an equilibration simulation and tensile test for the 4-molecule 4IG titin fibril in **ig_fibril.data**.
